@@ -18,8 +18,8 @@ Original file is located at
 import os
 os.environ['LANGCHAIN_TRACING_V2'] = 'true'
 os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
-os.environ['LANGCHAIN_API_KEY'] = 'ls__5e058a833a4d42369a65587f6432fc25'
-os.environ['GOOGLE_API_KEY'] ='AIzaSyDeQAgxtiV3Sre1-oqqySzDATq5St6n2zk'
+os.environ['LANGCHAIN_API_KEY'] = 'your Api key'
+os.environ['GOOGLE_API_KEY'] ='your api key'
 
 from PyPDF2 import PdfReader
 import bs4
